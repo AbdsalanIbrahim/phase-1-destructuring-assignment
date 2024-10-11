@@ -3,11 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>JavaScript Lab</title>
+  <title>Destructuring Assignment Lab</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-  hello
-  <script type="text/javascript" src="index.js"></script>
+  <header>
+    <h1>Welcome to the JavaScript Destructuring Assignment Lab</h1>
+  </header>
+
+  <main>
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>In this lab, you'll practice using destructuring assignment to simplify code that works with arrays, objects, and strings.</p>
+    </section>
+
+    <section id="instructions">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Destructure values from an object and assign them to variables.</li>
+        <li>Destructure values from an array to create variables.</li>
+        <li>Use destructuring with strings to assign parts of a string to variables.</li>
+      </ul>
+    </section>
+
+    <section id="example">
+      <h2>Examples</h2>
+      <p>Here's an example of destructuring an object:</p>
+      <pre>
+        <code>
+          const person = { name: 'Alice', age: 30 };
+          const { name, age } = person;
+          console.log(name, age); // Outputs: Alice 30
+        </code>
+      </pre>
+
+      <p>And an example of array destructuring:</p>
+      <pre>
+        <code>
+          const fruits = ['apple', 'banana', 'orange'];
+          const [first, second] = fruits;
+          console.log(first, second); // Outputs: apple banana
+        </code>
+      </pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Destructuring Assignment Lab</p>
+  </footer>
+
+  <script src="index.js"></script> 
 </body>
 </html>
